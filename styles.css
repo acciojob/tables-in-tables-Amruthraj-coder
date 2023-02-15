@@ -1,2 +1,14 @@
+th,tr,table,td{
+	 border: 1px solid black;
+    border-collapse: ;
+}
+.none,.hi{
+	border:none;
+}
+.hi{
+	width:100%
+
+}
+
 
 /* Your CSS Code here. */
