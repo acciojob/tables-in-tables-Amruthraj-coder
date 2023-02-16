@@ -13,9 +13,9 @@ th,tr,table,td{
 background-color:rgb(0,0,0);
 	color:white;
 }
-.hi{
-	margin-top:50px;
-	margin-bottom:50px;
+.row{
+	border-top:50px;
+	padding-bottom:100px;
 }
 
 /* Your CSS Code here. */

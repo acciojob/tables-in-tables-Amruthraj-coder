@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <table style="width: 100%; height: 100%">
+    <table class="parent" style="width: 100%; height: 100%">
       <tr>
 		  <th>
 			  <table style="width:100%; ">
@@ -24,6 +24,10 @@
 			  </tr>
 			  </table>
 		</th>
+
+
+
+		  
 		<th>
 		  <table style="width:100%">
 			  <th colspan="2">Nested Table 1</th>
@@ -50,6 +54,9 @@
 						  <li >List item 3</li>
 					  </ul>
 				  </th>
+
+
+				  
 				  
 			  </tr>
 		  </table>
@@ -59,8 +66,8 @@
 
 
 		
-		<tr >
-			<td class="down">
+		<tr class="row">
+			<th class="down">
 			<table class="hi">
 				<tr>
 					<th colspan="2">Nested Table 3</th>
@@ -72,8 +79,8 @@
 			
 				
 			</table>
-			</td>
-			<td class="down">
+			</th>
+			<th class="down">
 			<table class="hi">
 				<tr>
 					<th colspan="2">Nested Table 4</th>
@@ -84,7 +91,7 @@
 			
 				
 			</table>
-			</td>
+			</th>
 		</tr>
     </table>
   </body>
