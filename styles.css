@@ -1,6 +1,6 @@
 th,tr,table,td{
-	 border: 3px solid black;
-    border-collapse: ;
+	 border: 3px solid rgb(0,0,0);
+    
 }
 .none,.hi{
 	border:none;
@@ -10,7 +10,7 @@ th,tr,table,td{
 
 }
 .html{
-background-color:black;
+background-color:rgb(0,0,0);
 	color:white;
 }
 .hi{
